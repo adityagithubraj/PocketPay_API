@@ -1,0 +1,3 @@
+this logs for app.js
+Server running on port \\.\pipe\16435416-fb24-40b1-8b9d-f49cc2935537
+Connected to SQL Server

@@ -1,0 +1,128 @@
+CREATE PROCEDURE [MasterDocUploadProcedure]      
+@regno VARCHAR(50),   
+@action VARCHAR(50),  -- 'BANK', 'AADHAR', 'PAN'   
+  
+@panno VARCHAR(20) = '',    
+@panimage VARCHAR(MAX) = '',    
+    
+@BankName VARCHAR(60) = '',      
+@AccountName VARCHAR(60) = '',      
+@BankACNo VARCHAR(50) = '',      
+@Branch VARCHAR(60) = '',      
+@IFSCCode VARCHAR(80) = '',   
+@bankimage VARCHAR(MAX) = '',  
+    
+@AadharNo VARCHAR(50) = '',   
+@aadharfront VARCHAR(500) = '',      
+@aadharback VARCHAR(500) = '',      
+      
+@UpdateBy VARCHAR(50) = '',  
+       
+@flag VARCHAR(50) OUT     
+AS      
+  
+SET NOCOUNT ON;      
+SET XACT_ABORT ON;      
+BEGIN TRANSACTION;      
+BEGIN TRY  
+  
+DECLARE @appmstid INT, @intResult INT = 0   
+  
+      
+    -- Common logic to fetch appmstid based on @regno      
+    SELECT @appmstid = appmstid FROM appmst WHERE appmstregno = @regno;      
+  
+    -- Check the action and perform corresponding logic  
+ IF @action = 'PAN'      
+    BEGIN      
+          
+        -- Update PAN number in appmst    
+        UPDATE appmst SET panno = @panno WHERE appmstid = @appmstid;      
+            
+        -- Insert or update scandocs for PAN or address documents      
+        IF NOT EXISTS (SELECT appmstid FROM scandocs WHERE appmstid = @appmstid)      
+        BEGIN      
+   INSERT scandocs (appmstid, panimage, pstatus, PanDateLoaded)      
+            VALUES (@appmstid, @panimage, 2, SYSDATETIME())    
+        END      
+        ELSE      
+        BEGIN      
+            UPDATE scandocs SET pstatus =2, PanDateLoaded = SYSDATETIME(), panimage = @panimage      
+            WHERE appmstid = @appmstid;     
+        END      
+  
+  Exec [AddLogForUserProfile] @regno, @UpdateBy, 'Update Pan', @intResult out   
+      
+        SET @flag = '1';      
+    END   
+    ELSE IF @action = 'BANK'      
+    BEGIN      
+          
+        -- Bank account validation and update logic      
+        IF @BankACNo <> '' OR @AccountName <> '' OR @BankName <> '' OR @Branch <> '' OR @IFSCCode <> ''    
+        BEGIN      
+            IF (@BankACNo NOT LIKE '%%')      
+                SET @BankACNo = '' + @BankACNo;      
+  
+            UPDATE appmst       
+            SET AcountNo = REPLACE(@BankACNo, '#', ''),       
+                type = @AccountName,       
+                BankName = @BankName,       
+                Branch = @Branch,       
+                IFSCode = @IFSCCode      
+            WHERE appmstid = @appmstid;      
+        END      
+  
+        -- Insert or update scandocs for bank details      
+        IF EXISTS (SELECT appmstid FROM scandocs WHERE appmstid = @appmstid)      
+        BEGIN      
+            UPDATE scandocs       
+            SET bankstatus = 2, bankdateloaded = SYSDATETIME(), BankImage = @bankimage      
+            WHERE appmstid = @appmstid;      
+        END      
+        ELSE      
+        BEGIN      
+            INSERT scandocs (appmstid, BankImage, bankstatus, bankDateloaded)      
+            VALUES (@appmstid, @bankimage, 2, SYSDATETIME());      
+        END      
+     
+  Exec [AddLogForUserProfile] @regno, @UpdateBy, 'Update Bank', @intResult out   
+    
+        SET @flag = '1';      
+    END      
+    ELSE IF @action = 'AADHAR'      
+    BEGIN    
+        -- Update Aadhar number in appmst   
+        UPDATE appmst SET Aadharno = @AadharNo WHERE appmstid = @appmstid;      
+           
+        -- Insert or update scandocs for Aadhar      
+        IF NOT EXISTS (SELECT appmstid FROM scandocs WHERE appmstid = @appmstid)      
+        BEGIN      
+            INSERT scandocs (appmstid, aadharfront, aadharback, aastatus, docDateLoaded)      
+            VALUES (@appmstid, @aadharfront, @aadharback, 2, SYSDATETIME());      
+        END      
+        ELSE      
+        BEGIN      
+            UPDATE scandocs       
+            SET aastatus = 2, docdateloaded = SYSDATETIME(), aadharfront = @aadharfront, aadharback = @aadharback      
+            WHERE appmstid = @appmstid;      
+        END      
+  Exec [AddLogForUserProfile] @regno, @UpdateBy, 'Update Aadhar', @intResult out   
+    
+    
+        SET @flag = '1';      
+    END      
+         
+  
+    -- Commit transaction if successful      
+    COMMIT TRANSACTION;      
+END TRY      
+BEGIN CATCH      
+    -- Rollback transaction and handle errors      
+    ROLLBACK TRANSACTION;      
+    SET @flag = CAST(ERROR_MESSAGE() AS VARCHAR(MAX)) +       
+                CAST(ERROR_NUMBER() AS VARCHAR(MAX)) +       
+                CAST(ERROR_LINE() AS VARCHAR(MAX)) +      
+                CAST(ERROR_SEVERITY() AS VARCHAR(MAX)) +       
+                CAST(ERROR_STATE() AS VARCHAR(MAX));      
+END CATCH      

@@ -1,0 +1,9 @@
+this logs for app.js
+Server running on port \\.\pipe\c32b42ec-6e4f-4de4-9c33-7a558cbf1407
+Connected to SQL Server
+getServiceList  api calling ////
+Fetching service data...
+Service list retrieved with serviceId: 1
+getServiceList  api calling ////
+Fetching service data...
+Service list retrieved with serviceId: 1

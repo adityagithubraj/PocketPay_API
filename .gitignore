@@ -1,0 +1,18 @@
+# Node.js dependencies
+node_modules/
+backupCode
+
+# Log files
+
+
+# Operating system files
+
+
+# Environment variables
+.env
+
+# Compiled files and folders
+
+
+# Temporary files
+

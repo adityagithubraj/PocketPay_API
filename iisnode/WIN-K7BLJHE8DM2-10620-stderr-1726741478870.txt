@@ -1,0 +1,15 @@
+(node:10620) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+req body console { mobileno: '6295750899', password: '12345' }
+(node:10620) [DEP0123] DeprecationWarning: Setting the TLS ServerName to an IP address is not permitted by RFC 6066. This will be ignored in a future version.
+Error during login: ConnectionError: Connection is closed.
+    at Request._query (C:\HostingSpaces\vista\test.triptalespay.com\node_modules\mssql\lib\base\request.js:497:37)
+    at Request._query (C:\HostingSpaces\vista\test.triptalespay.com\node_modules\mssql\lib\tedious\request.js:363:11)
+    at C:\HostingSpaces\vista\test.triptalespay.com\node_modules\mssql\lib\base\request.js:461:12
+    at new Promise (<anonymous>)
+    at Request.query (C:\HostingSpaces\vista\test.triptalespay.com\node_modules\mssql\lib\base\request.js:460:12)
+    at exports.loginUser (C:\HostingSpaces\vista\test.triptalespay.com\controllers\userController.js:154:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'ECONNCLOSED'
+}
+req body console { mobileno: '9650443548', password: '12345' }

@@ -1,0 +1,4 @@
+this my jwt token  VISTATECH
+this logs for app.js
+Server running on port \\.\pipe\14afbef2-0b25-4861-9578-5a1d954ace94
+Connected to SQL Server

@@ -1,0 +1,116 @@
+this logs for app.js
+Server running on port \\.\pipe\4fde3bcf-b70a-46c1-aec9-8749c17381ad
+API for recharge {
+  number: '8383015513',
+  opcode: 'JIO',
+  amount: '1',
+  Usertoken: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVSWQiOjQwLCJ1c2VySWQiOiI2Mjk1ODU3MzQ5IiwiaWF0IjoxNzI2NzE1NTE0LCJleHAiOjE3MjY3MTkxMTR9.Q_ezFDg5LMXpRRObFft0wHhH7xq6CIFWE3bHQI2iXQ0'
+}
+Connected to SQL Server
+API for recharge {
+  number: '8383015513',
+  opcode: 'JIO',
+  amount: '1',
+  Usertoken: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVSWQiOjQwLCJ1c2VySWQiOiI2Mjk1ODU3MzQ5IiwiaWF0IjoxNzI2NzI0OTIzLCJleHAiOjE3MjY3Mjg1MjN9.a-DCHEVYqYeMRz6IlYA-dtA4Tp_7MDshd_lGr5NoM8Y'
+}
+this is UId 40 token data { UId: 40, userId: '6295857349', iat: 1726724923, exp: 1726728523 }
+Current balance: 30 Transaction ID: 8
+this  are my .env data 8093073099 617301924407158903058226494669
+API for recharge {
+  number: '8383015513',
+  opcode: 'JIO',
+  amount: '10',
+  Usertoken: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVSWQiOjQwLCJ1c2VySWQiOiI2Mjk1ODU3MzQ5IiwiaWF0IjoxNzI2NzI0OTIzLCJleHAiOjE3MjY3Mjg1MjN9.a-DCHEVYqYeMRz6IlYA-dtA4Tp_7MDshd_lGr5NoM8Y'
+}
+this is UId 40 token data { UId: 40, userId: '6295857349', iat: 1726724923, exp: 1726728523 }
+Current balance: 30 Transaction ID: 9
+this  are my .env data 8093073099 617301924407158903058226494669
+getServiceList  api calling ////
+Fetching service data...
+Service list retrieved with serviceId: undefined
+getServiceList  api calling ////
+Fetching service data...
+Service list retrieved with serviceId: undefined
+API for recharge {
+  number: '8383015513',
+  opcode: 'JIO',
+  amount: '100000000000',
+  Usertoken: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVSWQiOjQwLCJ1c2VySWQiOiI2Mjk1ODU3MzQ5IiwiaWF0IjoxNzI2NzI0OTIzLCJleHAiOjE3MjY3Mjg1MjN9.a-DCHEVYqYeMRz6IlYA-dtA4Tp_7MDshd_lGr5NoM8Y'
+}
+this is UId 40 token data { UId: 40, userId: '6295857349', iat: 1726724923, exp: 1726728523 }
+Current balance: 30 Transaction ID: 0
+API for recharge {
+  number: '8383015513',
+  opcode: 'JIO',
+  amount: '10',
+  Usertoken: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVSWQiOjQwLCJ1c2VySWQiOiI2Mjk1ODU3MzQ5IiwiaWF0IjoxNzI2NzI0OTIzLCJleHAiOjE3MjY3Mjg1MjN9.a-DCHEVYqYeMRz6IlYA-dtA4Tp_7MDshd_lGr5NoM8Y'
+}
+this is UId 40 token data { UId: 40, userId: '6295857349', iat: 1726724923, exp: 1726728523 }
+Current balance: 30 Transaction ID: 10
+this  are my .env data 8093073099 617301924407158903058226494669
+API for recharge {
+  number: '6295750823',
+  opcode: 'JIO',
+  amount: '10',
+  Usertoken: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVSWQiOjQwLCJ1c2VySWQiOiI2Mjk1ODU3MzQ5IiwiaWF0IjoxNzI2NzI0OTIzLCJleHAiOjE3MjY3Mjg1MjN9.a-DCHEVYqYeMRz6IlYA-dtA4Tp_7MDshd_lGr5NoM8Y'
+}
+this is UId 40 token data { UId: 40, userId: '6295857349', iat: 1726724923, exp: 1726728523 }
+Current balance: 30 Transaction ID: 11
+this  are my .env data 8093073099 617301924407158903058226494669
+getServiceList  api calling ////
+Fetching service data...
+Service list retrieved with serviceId: undefined
+API for recharge {
+  number: '6295750823',
+  opcode: 'JIO',
+  amount: '100',
+  Usertoken: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVSWQiOjQwLCJ1c2VySWQiOiI2Mjk1ODU3MzQ5IiwiaWF0IjoxNzI2NzE1NTE0LCJleHAiOjE3MjY3MTkxMTR9.Q_ezFDg5LMXpRRObFft0wHhH7xq6CIFWE3bHQI2iXQ0'
+}
+API for recharge {
+  number: '6295750823',
+  opcode: 'JIO',
+  amount: '10',
+  Usertoken: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVSWQiOjQwLCJ1c2VySWQiOiI2Mjk1ODU3MzQ5IiwiaWF0IjoxNzI2NzI1NjA0LCJleHAiOjE3MjY3MjkyMDR9.Zs6-cyg5bnpiTEMwG5PwBBS3cMUVVn2avT9hBFGadAo'
+}
+this is UId 40 token data { UId: 40, userId: '6295857349', iat: 1726725604, exp: 1726729204 }
+Current balance: 30 Transaction ID: 12
+this  are my .env data 8093073099 617301924407158903058226494669
+getServiceList  api calling ////
+Fetching service data...
+Service list retrieved with serviceId: undefined
+getServiceList  api calling ////
+Fetching service data...
+Service list retrieved with serviceId: undefined
+getServiceList  api calling ////
+Fetching service data...
+Service list retrieved with serviceId: undefined
+getServiceList  api calling ////
+Fetching service data...
+Service list retrieved with serviceId: undefined
+getServiceList  api calling ////
+Fetching service data...
+Service list retrieved with serviceId: undefined
+getServiceList  api calling ////
+Fetching service data...
+Service list retrieved with serviceId: undefined
+getServiceList  api calling ////
+Fetching service data...
+Service list retrieved with serviceId: undefined
+getServiceList  api calling ////
+Fetching service data...
+Service list retrieved with serviceId: undefined
+getServiceList  api calling ////
+Fetching service data...
+Service list retrieved with serviceId: undefined
+getServiceList  api calling ////
+Fetching service data...
+Service list retrieved with serviceId: undefined
+getServiceList  api calling ////
+Fetching service data...
+Service list retrieved with serviceId: undefined
+getServiceList  api calling ////
+Fetching service data...
+Service list retrieved with serviceId: undefined
+getServiceList  api calling ////
+Fetching service data...
+Service list retrieved with serviceId: undefined

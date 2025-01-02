@@ -1,0 +1,22 @@
+this logs for app.js
+Server running on port \\.\pipe\0f1e6ed5-92be-445f-88b4-559d7b8a36c3
+Connected to SQL Server
+getServiceList  api calling ////
+Fetching service data...
+Service list retrieved with serviceId: 1
+getServiceList  api calling ////
+Fetching service data...
+Service list retrieved with serviceId: 1
+updateProfile API called {
+  UId: 40,
+  name: 'Aditya1',
+  user_img: 'https://media.licdn.com/dms/image/v2/D5603AQHOHqBVYgo-Xg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1725847285512?e=1732147200&v=beta&t=ubgRhtvR5VrFClNlH1tgLKfKsW8H9zQAOQ8Uv5h6-Zs'
+}
+getServiceList  api calling ////
+Fetching service data...
+Service list retrieved with serviceId: 1
+updateProfile API called {
+  UId: 40,
+  name: 'Aditya18',
+  user_img: 'https://example.com/path/to/profile_pic.jpg'
+}

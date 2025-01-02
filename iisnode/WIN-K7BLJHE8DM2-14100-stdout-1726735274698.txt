@@ -1,0 +1,17 @@
+this logs for app.js
+Server running on port \\.\pipe\d623d0d3-c168-4894-afef-f6f8023584bb
+Connected to SQL Server
+result for qury {
+  recordsets: [ [ [Object] ] ],
+  recordset: [ { walletBal: 50 } ],
+  output: {},
+  rowsAffected: [ 1 ]
+}
+this is my walet balance  { walletBal: 50 }
+result for qury {
+  recordsets: [ [ [Object] ] ],
+  recordset: [ { walletBal: 50 } ],
+  output: {},
+  rowsAffected: [ 1 ]
+}
+this is my walet balance  { walletBal: 50 }

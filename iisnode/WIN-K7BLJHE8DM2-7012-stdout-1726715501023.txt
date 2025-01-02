@@ -1,0 +1,29 @@
+this logs for app.js
+Server running on port \\.\pipe\7f3333f6-50a5-46ed-9267-536222461c5b
+Connected to SQL Server
+API for recharge {
+  number: '6295750823',
+  opcode: 'JIO',
+  amount: '1',
+  Usertoken: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVSWQiOjQwLCJ1c2VySWQiOiI2Mjk1ODU3MzQ5IiwiaWF0IjoxNzI2NzE1NTE0LCJleHAiOjE3MjY3MTkxMTR9.Q_ezFDg5LMXpRRObFft0wHhH7xq6CIFWE3bHQI2iXQ0'
+}
+this is UId 40 token data { UId: 40, userId: '6295857349', iat: 1726715514, exp: 1726719114 }
+Current balance: 50 Transaction ID: 6
+this  are my .env data 8093073099 617301924407158903058226494669
+API for recharge {
+  number: '6295750823',
+  opcode: 'JIO',
+  amount: '10',
+  Usertoken: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVSWQiOjQwLCJ1c2VySWQiOiI2Mjk1ODU3MzQ5IiwiaWF0IjoxNzI2NzE1NTE0LCJleHAiOjE3MjY3MTkxMTR9.Q_ezFDg5LMXpRRObFft0wHhH7xq6CIFWE3bHQI2iXQ0'
+}
+this is UId 40 token data { UId: 40, userId: '6295857349', iat: 1726715514, exp: 1726719114 }
+Current balance: 50 Transaction ID: 7
+this  are my .env data 8093073099 617301924407158903058226494669
+API for recharge {
+  number: '6295750823',
+  opcode: 'JIO',
+  amount: '100',
+  Usertoken: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVSWQiOjQwLCJ1c2VySWQiOiI2Mjk1ODU3MzQ5IiwiaWF0IjoxNzI2NzE1NTE0LCJleHAiOjE3MjY3MTkxMTR9.Q_ezFDg5LMXpRRObFft0wHhH7xq6CIFWE3bHQI2iXQ0'
+}
+this is UId 40 token data { UId: 40, userId: '6295857349', iat: 1726715514, exp: 1726719114 }
+Current balance: 30 Transaction ID: 0

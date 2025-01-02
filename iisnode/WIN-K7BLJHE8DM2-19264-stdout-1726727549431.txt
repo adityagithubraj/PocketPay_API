@@ -1,0 +1,261 @@
+this logs for app.js
+Server running on port \\.\pipe\d3733316-7fc3-46b6-845b-92b4107e3255
+getServiceList  api calling ////
+Fetching service data...
+Connected to SQL Server
+getServiceList  api calling ////
+Fetching service data...
+Service list retrieved with serviceId: 1
+getServiceList  api calling ////
+Fetching service data...
+Service list retrieved with serviceId: 1
+getServiceList  api calling ////
+Fetching service data...
+Service list retrieved with serviceId: 1
+getServiceList  api calling ////
+Fetching service data...
+Service list retrieved with serviceId: 1
+getServiceList  api calling ////
+Fetching service data...
+Service list retrieved with serviceId: 1
+getServiceList  api calling ////
+Fetching service data...
+Service list retrieved with serviceId: 1
+getServiceList  api calling ////
+Fetching service data...
+Service list retrieved with serviceId: 1
+API for recharge {
+  opcode: 'RA',
+  number: '9650443548',
+  amount: '10',
+  Usertoken: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVSWQiOjEsInVzZXJJZCI6Ijk2NTA0NDM1NDgiLCJpYXQiOjE3MjY1Njc0MjQsImV4cCI6MTcyNjU3MTAyNH0.M9TOrYoMlVayOVeWAo6gAIUSpdqgATupAbiPJSgE5Jc'
+}
+getServiceList  api calling ////
+Fetching service data...
+Service list retrieved with serviceId: 1
+getServiceList  api calling ////
+Fetching service data...
+Service list retrieved with serviceId: 1
+getServiceList  api calling ////
+Fetching service data...
+Service list retrieved with serviceId: 1
+API for recharge {
+  opcode: 'RA',
+  number: '9650443548',
+  amount: '10',
+  Usertoken: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVSWQiOjEsInVzZXJJZCI6Ijk2NTA0NDM1NDgiLCJpYXQiOjE3MjY3MjgzMTIsImV4cCI6MTcyNjczMTkxMn0.h4sAUQrfpGRmtFChazmVZKa3oHjKxREMUwqwbNMF3NQ'
+}
+this is UId 1 token data { UId: 1, userId: '9650443548', iat: 1726728312, exp: 1726731912 }
+Current balance: 50 Transaction ID: 13
+this  are my .env data 8093073099 617301924407158903058226494669
+getServiceList  api calling ////
+Fetching service data...
+Service list retrieved with serviceId: 1
+API for recharge {
+  opcode: 'RA',
+  number: '9650443548',
+  amount: '10',
+  Usertoken: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVSWQiOjEsInVzZXJJZCI6Ijk2NTA0NDM1NDgiLCJpYXQiOjE3MjY3MjgzMTIsImV4cCI6MTcyNjczMTkxMn0.h4sAUQrfpGRmtFChazmVZKa3oHjKxREMUwqwbNMF3NQ'
+}
+this is UId 1 token data { UId: 1, userId: '9650443548', iat: 1726728312, exp: 1726731912 }
+Current balance: 50 Transaction ID: 14
+this  are my .env data 8093073099 617301924407158903058226494669
+API for recharge {
+  opcode: 'RA',
+  number: '7398980683',
+  amount: '10',
+  Usertoken: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVSWQiOjEsInVzZXJJZCI6Ijk2NTA0NDM1NDgiLCJpYXQiOjE3MjY3MjgzMTIsImV4cCI6MTcyNjczMTkxMn0.h4sAUQrfpGRmtFChazmVZKa3oHjKxREMUwqwbNMF3NQ'
+}
+this is UId 1 token data { UId: 1, userId: '9650443548', iat: 1726728312, exp: 1726731912 }
+Current balance: 50 Transaction ID: 15
+this  are my .env data 8093073099 617301924407158903058226494669
+API for recharge {
+  opcode: 'RA',
+  number: '7398980683',
+  amount: '11',
+  Usertoken: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVSWQiOjEsInVzZXJJZCI6Ijk2NTA0NDM1NDgiLCJpYXQiOjE3MjY3MjgzMTIsImV4cCI6MTcyNjczMTkxMn0.h4sAUQrfpGRmtFChazmVZKa3oHjKxREMUwqwbNMF3NQ'
+}
+this is UId 1 token data { UId: 1, userId: '9650443548', iat: 1726728312, exp: 1726731912 }
+Current balance: 50 Transaction ID: 16
+this  are my .env data 8093073099 617301924407158903058226494669
+getServiceList  api calling ////
+Fetching service data...
+Service list retrieved with serviceId: 1
+API for recharge {
+  number: '6295750823',
+  opcode: 'JIO',
+  amount: '11',
+  Usertoken: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVSWQiOjQwLCJ1c2VySWQiOiI2Mjk1ODU3MzQ5IiwiaWF0IjoxNzI2NzI1NjA0LCJleHAiOjE3MjY3MjkyMDR9.Zs6-cyg5bnpiTEMwG5PwBBS3cMUVVn2avT9hBFGadAo'
+}
+this is UId 40 token data { UId: 40, userId: '6295857349', iat: 1726725604, exp: 1726729204 }
+Current balance: 30 Transaction ID: 17
+this  are my .env data 8093073099 617301924407158903058226494669
+API for recharge {
+  number: '6295750823',
+  opcode: 'JIO',
+  amount: '100',
+  Usertoken: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVSWQiOjQwLCJ1c2VySWQiOiI2Mjk1ODU3MzQ5IiwiaWF0IjoxNzI2NzI1NjA0LCJleHAiOjE3MjY3MjkyMDR9.Zs6-cyg5bnpiTEMwG5PwBBS3cMUVVn2avT9hBFGadAo'
+}
+this is UId 40 token data { UId: 40, userId: '6295857349', iat: 1726725604, exp: 1726729204 }
+Current balance: 30 Transaction ID: 0
+API for recharge {
+  number: '6295750823',
+  opcode: 'JIO',
+  amount: '',
+  Usertoken: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVSWQiOjQwLCJ1c2VySWQiOiI2Mjk1ODU3MzQ5IiwiaWF0IjoxNzI2NzI1NjA0LCJleHAiOjE3MjY3MjkyMDR9.Zs6-cyg5bnpiTEMwG5PwBBS3cMUVVn2avT9hBFGadAo'
+}
+this is UId 40 token data { UId: 40, userId: '6295857349', iat: 1726725604, exp: 1726729204 }
+API for recharge {
+  opcode: 'RA',
+  number: '9650443548',
+  amount: '10',
+  Usertoken: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVSWQiOjEsInVzZXJJZCI6Ijk2NTA0NDM1NDgiLCJpYXQiOjE3MjY3MjgzMTIsImV4cCI6MTcyNjczMTkxMn0.h4sAUQrfpGRmtFChazmVZKa3oHjKxREMUwqwbNMF3NQ'
+}
+this is UId 1 token data { UId: 1, userId: '9650443548', iat: 1726728312, exp: 1726731912 }
+Current balance: 50 Transaction ID: 18
+this  are my .env data 8093073099 617301924407158903058226494669
+API for recharge {
+  number: '6295750811',
+  opcode: 'JIO',
+  amount: '20',
+  Usertoken: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVSWQiOjQwLCJ1c2VySWQiOiI2Mjk1ODU3MzQ5IiwiaWF0IjoxNzI2NzI1NjA0LCJleHAiOjE3MjY3MjkyMDR9.Zs6-cyg5bnpiTEMwG5PwBBS3cMUVVn2avT9hBFGadAo'
+}
+this is UId 40 token data { UId: 40, userId: '6295857349', iat: 1726725604, exp: 1726729204 }
+Current balance: 30 Transaction ID: 19
+this  are my .env data 8093073099 617301924407158903058226494669
+API for recharge {
+  opcode: '',
+  number: '9650443548',
+  amount: '0',
+  Usertoken: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVSWQiOjEsInVzZXJJZCI6Ijk2NTA0NDM1NDgiLCJpYXQiOjE3MjY3MjgzMTIsImV4cCI6MTcyNjczMTkxMn0.h4sAUQrfpGRmtFChazmVZKa3oHjKxREMUwqwbNMF3NQ'
+}
+this is UId 1 token data { UId: 1, userId: '9650443548', iat: 1726728312, exp: 1726731912 }
+API for recharge {
+  opcode: '',
+  number: '9650443548',
+  amount: '0',
+  Usertoken: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVSWQiOjEsInVzZXJJZCI6Ijk2NTA0NDM1NDgiLCJpYXQiOjE3MjY3MjgzMTIsImV4cCI6MTcyNjczMTkxMn0.h4sAUQrfpGRmtFChazmVZKa3oHjKxREMUwqwbNMF3NQ'
+}
+this is UId 1 token data { UId: 1, userId: '9650443548', iat: 1726728312, exp: 1726731912 }
+API for recharge {
+  opcode: '',
+  number: '9650443548',
+  amount: '0',
+  Usertoken: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVSWQiOjEsInVzZXJJZCI6Ijk2NTA0NDM1NDgiLCJpYXQiOjE3MjY3MjgzMTIsImV4cCI6MTcyNjczMTkxMn0.h4sAUQrfpGRmtFChazmVZKa3oHjKxREMUwqwbNMF3NQ'
+}
+this is UId 1 token data { UId: 1, userId: '9650443548', iat: 1726728312, exp: 1726731912 }
+getServiceList  api calling ////
+Fetching service data...
+Service list retrieved with serviceId: 1
+getServiceList  api calling ////
+Fetching service data...
+Service list retrieved with serviceId: 1
+getServiceList  api calling ////
+Fetching service data...
+Service list retrieved with serviceId: 3
+getServiceList  api calling ////
+Fetching service data...
+Service list retrieved with serviceId: 1
+getServiceList  api calling ////
+Fetching service data...
+Service list retrieved with serviceId: 3
+getServiceList  api calling ////
+Fetching service data...
+Service list retrieved with serviceId: 1
+getServiceList  api calling ////
+Fetching service data...
+Service list retrieved with serviceId: 3
+getServiceList  api calling ////
+Fetching service data...
+Service list retrieved with serviceId: 1
+getServiceList  api calling ////
+Fetching service data...
+Service list retrieved with serviceId: 3
+API for recharge {
+  opcode: 'APFAP',
+  number: '9811190082',
+  amount: '100',
+  Usertoken: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVSWQiOjEsInVzZXJJZCI6Ijk2NTA0NDM1NDgiLCJpYXQiOjE3MjY3MjgzMTIsImV4cCI6MTcyNjczMTkxMn0.h4sAUQrfpGRmtFChazmVZKa3oHjKxREMUwqwbNMF3NQ'
+}
+this is UId 1 token data { UId: 1, userId: '9650443548', iat: 1726728312, exp: 1726731912 }
+Current balance: 50 Transaction ID: 0
+API for recharge {
+  opcode: 'APFAP',
+  number: '9811190082',
+  amount: '50',
+  Usertoken: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVSWQiOjEsInVzZXJJZCI6Ijk2NTA0NDM1NDgiLCJpYXQiOjE3MjY3MjgzMTIsImV4cCI6MTcyNjczMTkxMn0.h4sAUQrfpGRmtFChazmVZKa3oHjKxREMUwqwbNMF3NQ'
+}
+this is UId 1 token data { UId: 1, userId: '9650443548', iat: 1726728312, exp: 1726731912 }
+Current balance: 50 Transaction ID: 0
+this  are my .env data 8093073099 617301924407158903058226494669
+API for recharge {
+  opcode: 'APFAP',
+  number: '9811190082',
+  amount: '50',
+  Usertoken: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVSWQiOjEsInVzZXJJZCI6Ijk2NTA0NDM1NDgiLCJpYXQiOjE3MjY3MjgzMTIsImV4cCI6MTcyNjczMTkxMn0.h4sAUQrfpGRmtFChazmVZKa3oHjKxREMUwqwbNMF3NQ'
+}
+this is UId 1 token data { UId: 1, userId: '9650443548', iat: 1726728312, exp: 1726731912 }
+Current balance: 50 Transaction ID: 0
+this  are my .env data 8093073099 617301924407158903058226494669
+getServiceList  api calling ////
+Fetching service data...
+Service list retrieved with serviceId: 1
+getServiceList  api calling ////
+Fetching service data...
+Service list retrieved with serviceId: 1
+getServiceList  api calling ////
+Fetching service data...
+Service list retrieved with serviceId: 3
+API for recharge {
+  opcode: 'APFAP',
+  number: '9811190082',
+  amount: '50',
+  Usertoken: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVSWQiOjEsInVzZXJJZCI6Ijk2NTA0NDM1NDgiLCJpYXQiOjE3MjY3MjgzMTIsImV4cCI6MTcyNjczMTkxMn0.h4sAUQrfpGRmtFChazmVZKa3oHjKxREMUwqwbNMF3NQ'
+}
+this is UId 1 token data { UId: 1, userId: '9650443548', iat: 1726728312, exp: 1726731912 }
+Current balance: 50 Transaction ID: 0
+this  are my .env data 8093073099 617301924407158903058226494669
+API for recharge {
+  number: '9811190082',
+  opcode: 'APFAP',
+  amount: '50',
+  Usertoken: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVSWQiOjEsInVzZXJJZCI6Ijk2NTA0NDM1NDgiLCJpYXQiOjE3MjY3MjgzMTIsImV4cCI6MTcyNjczMTkxMn0.h4sAUQrfpGRmtFChazmVZKa3oHjKxREMUwqwbNMF3NQ'
+}
+this is UId 1 token data { UId: 1, userId: '9650443548', iat: 1726728312, exp: 1726731912 }
+Current balance: 50 Transaction ID: 0
+this  are my .env data 8093073099 617301924407158903058226494669
+API for recharge {
+  opcode: 'APFAP',
+  number: '9811190082',
+  amount: '50',
+  Usertoken: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVSWQiOjEsInVzZXJJZCI6Ijk2NTA0NDM1NDgiLCJpYXQiOjE3MjY3MjgzMTIsImV4cCI6MTcyNjczMTkxMn0.h4sAUQrfpGRmtFChazmVZKa3oHjKxREMUwqwbNMF3NQ'
+}
+this is UId 1 token data { UId: 1, userId: '9650443548', iat: 1726728312, exp: 1726731912 }
+Current balance: 50 Transaction ID: 0
+this  are my .env data 8093073099 617301924407158903058226494669
+API for recharge {
+  number: '9811190082',
+  opcode: 'APFAP',
+  amount: '500',
+  Usertoken: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVSWQiOjEsInVzZXJJZCI6Ijk2NTA0NDM1NDgiLCJpYXQiOjE3MjY3MjgzMTIsImV4cCI6MTcyNjczMTkxMn0.h4sAUQrfpGRmtFChazmVZKa3oHjKxREMUwqwbNMF3NQ'
+}
+this is UId 1 token data { UId: 1, userId: '9650443548', iat: 1726728312, exp: 1726731912 }
+Current balance: 50 Transaction ID: 0
+API for recharge {
+  number: '9811190082',
+  opcode: 'APFAP',
+  amount: '50',
+  Usertoken: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVSWQiOjEsInVzZXJJZCI6Ijk2NTA0NDM1NDgiLCJpYXQiOjE3MjY3MjgzMTIsImV4cCI6MTcyNjczMTkxMn0.h4sAUQrfpGRmtFChazmVZKa3oHjKxREMUwqwbNMF3NQ'
+}
+this is UId 1 token data { UId: 1, userId: '9650443548', iat: 1726728312, exp: 1726731912 }
+Current balance: 50 Transaction ID: 0
+this  are my .env data 8093073099 617301924407158903058226494669
+API for recharge {
+  number: '9811190082',
+  opcode: 'RA',
+  amount: '50',
+  Usertoken: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVSWQiOjEsInVzZXJJZCI6Ijk2NTA0NDM1NDgiLCJpYXQiOjE3MjY3MjgzMTIsImV4cCI6MTcyNjczMTkxMn0.h4sAUQrfpGRmtFChazmVZKa3oHjKxREMUwqwbNMF3NQ'
+}
+this is UId 1 token data { UId: 1, userId: '9650443548', iat: 1726728312, exp: 1726731912 }
+Current balance: 50 Transaction ID: 0
+this  are my .env data 8093073099 617301924407158903058226494669

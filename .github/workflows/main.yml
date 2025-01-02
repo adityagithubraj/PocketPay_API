@@ -1,0 +1,36 @@
+name: Node.js CI/CD Pipeline
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '20'  # Adjust Node.js version as required
+        
+    - name: Install dependencies
+      run: npm install
+  
+    - name: Copy files via SSH to IIS Server
+      uses: appleboy/scp-action@v0.1.4
+      with:
+        host: ${{ secrets.IIS_HOST }}
+        username: ${{ secrets.IIS_USER }}
+        password: ${{ secrets.IIS_PASS }}
+        source: "."  # Replace with the actual path or files you want to copy
+        target: "C://HostingSpaces//vista//api.triptalespay.com"  # Adjust this path to where your app is hosted on IIS
+
+    # You can comment or remove the restart step if it's not needed
+    # - name: Restart IIS Server
+    #   run: |
+    #     ssh ${{ secrets.IIS_USER }}@${{ secrets.IIS_HOST }} "iisreset"
