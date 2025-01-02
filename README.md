@@ -1,4 +1,6 @@
 # PocketPay_API
+![image](https://github.com/user-attachments/assets/86fd94d9-e17f-47f9-9046-bfab9876c062)
+
 
 PocketPay: Your One-Stop Solution for All Digital Transactions
 
@@ -14,4 +16,3 @@ Wallet Services: Manage your digital wallet to store money securely for instant 
 DTH and Broadband Recharge: Recharge your DTH and internet plans in no time.
 
 
-![Uploading image.png…]()
